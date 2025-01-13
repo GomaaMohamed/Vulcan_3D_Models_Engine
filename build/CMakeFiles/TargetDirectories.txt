@@ -1,0 +1,3 @@
+/home/gomaa/embedded/23-Vulcan/practice/build/CMakeFiles/executable.dir
+/home/gomaa/embedded/23-Vulcan/practice/build/CMakeFiles/edit_cache.dir
+/home/gomaa/embedded/23-Vulcan/practice/build/CMakeFiles/rebuild_cache.dir

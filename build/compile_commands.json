@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/gomaa/embedded/23-Vulcan/practice/build",
+  "command": "/usr/bin/c++ -DSRC_DIR=\\\"/home/gomaa/embedded/23-Vulcan/practice/source\\\" -I/home/gomaa/embedded/23-Vulcan/practice/source/include -I/home/gomaa/embedded/23-Vulcan/practice/source/src -I/home/gomaa/embedded/23-Vulcan/practice/source/src/core -I/home/gomaa/embedded/23-Vulcan/practice/source/include/core -g -g -g -O0 -o CMakeFiles/executable.dir/src/main.cpp.o -c /home/gomaa/embedded/23-Vulcan/practice/source/src/main.cpp",
+  "file": "/home/gomaa/embedded/23-Vulcan/practice/source/src/main.cpp"
+},
+{
+  "directory": "/home/gomaa/embedded/23-Vulcan/practice/build",
+  "command": "/usr/bin/c++ -DSRC_DIR=\\\"/home/gomaa/embedded/23-Vulcan/practice/source\\\" -I/home/gomaa/embedded/23-Vulcan/practice/source/include -I/home/gomaa/embedded/23-Vulcan/practice/source/src -I/home/gomaa/embedded/23-Vulcan/practice/source/src/core -I/home/gomaa/embedded/23-Vulcan/practice/source/include/core -g -g -g -O0 -o CMakeFiles/executable.dir/src/core/Application.cpp.o -c /home/gomaa/embedded/23-Vulcan/practice/source/src/core/Application.cpp",
+  "file": "/home/gomaa/embedded/23-Vulcan/practice/source/src/core/Application.cpp"
+},
+{
+  "directory": "/home/gomaa/embedded/23-Vulcan/practice/build",
+  "command": "/usr/bin/c++ -DSRC_DIR=\\\"/home/gomaa/embedded/23-Vulcan/practice/source\\\" -I/home/gomaa/embedded/23-Vulcan/practice/source/include -I/home/gomaa/embedded/23-Vulcan/practice/source/src -I/home/gomaa/embedded/23-Vulcan/practice/source/src/core -I/home/gomaa/embedded/23-Vulcan/practice/source/include/core -g -g -g -O0 -o CMakeFiles/executable.dir/src/core/PhysicalDevices.cpp.o -c /home/gomaa/embedded/23-Vulcan/practice/source/src/core/PhysicalDevices.cpp",
+  "file": "/home/gomaa/embedded/23-Vulcan/practice/source/src/core/PhysicalDevices.cpp"
+},
+{
+  "directory": "/home/gomaa/embedded/23-Vulcan/practice/build",
+  "command": "/usr/bin/c++ -DSRC_DIR=\\\"/home/gomaa/embedded/23-Vulcan/practice/source\\\" -I/home/gomaa/embedded/23-Vulcan/practice/source/include -I/home/gomaa/embedded/23-Vulcan/practice/source/src -I/home/gomaa/embedded/23-Vulcan/practice/source/src/core -I/home/gomaa/embedded/23-Vulcan/practice/source/include/core -g -g -g -O0 -o CMakeFiles/executable.dir/src/core/VkCore.cpp.o -c /home/gomaa/embedded/23-Vulcan/practice/source/src/core/VkCore.cpp",
+  "file": "/home/gomaa/embedded/23-Vulcan/practice/source/src/core/VkCore.cpp"
+}
+]

@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+ASSERT	include/BIT_MATH.hpp	/^#define ASSERT(/;"	d
+BIT_MATH_H	include/BIT_MATH.hpp	/^#define  BIT_MATH_H$/;"	d
+CLR_BIT	include/BIT_MATH.hpp	/^#define  CLR_BIT(/;"	d
+CLR_BYTE	include/BIT_MATH.hpp	/^#define  CLR_BYTE(/;"	d
+CLR_MASK	include/BIT_MATH.hpp	/^#define CLR_MASK(/;"	d
+CPPFLAGS	Makefile	/^CPPFLAGS := -g -std=c++17 $/;"	m
+CXX	Makefile	/^CXX    := g++$/;"	m
+DUMP	Makefile	/^DUMP   := objdump$/;"	m
+FALSE	include/STD_TYPES.hpp	/^    FALSE,$/;"	e	enum:__anon23cff3cd0103
+GET_BIT	include/BIT_MATH.hpp	/^#define  GET_BIT(/;"	d
+HOME	Makefile	/^HOME   := \/home\/gomaa\/embedded\/workspace\/cppworkspace$/;"	m
+INCLUDES	Makefile	/^INCLUDES = -I $(HOME)\/include $/;"	m
+MEM32_ADDRESS	include/BIT_MATH.hpp	/^#define MEM32_ADDRESS(/;"	d
+PATH_TO_OBJECT	Makefile	/^PATH_TO_OBJECT := "executable"$/;"	m
+SET_BIT	include/BIT_MATH.hpp	/^#define  SET_BIT(/;"	d
+SET_BYTE	include/BIT_MATH.hpp	/^#define  SET_BYTE(/;"	d
+SET_MASK	include/BIT_MATH.hpp	/^#define SET_MASK(/;"	d
+SIZE	Makefile	/^SIZE   := size$/;"	m
+SRCS	Makefile	/^SRCS = $(wildcard $(HOME)\/*.cpp) \\$/;"	m
+STD_TYPES_H	include/STD_TYPES.hpp	/^#define STD_TYPES_H$/;"	d
+Spreadsheet	include/Spreadsheet.hpp	/^class Spreadsheet$/;"	c
+Spreadsheet	sources/Spreadsheet.cpp	/^Spreadsheet::Spreadsheet(Spreadsheet &&src) noexcept$/;"	f	class:Spreadsheet
+Spreadsheet	sources/Spreadsheet.cpp	/^Spreadsheet::Spreadsheet(const Spreadsheet& src):Spreadsheet(src.mWidth,src.mHeight)$/;"	f	class:Spreadsheet
+Spreadsheet	sources/Spreadsheet.cpp	/^Spreadsheet::Spreadsheet(size_t width, size_t height):mWidth(width),mHeight(height)$/;"	f	class:Spreadsheet
+SpreadsheetCell	include/SpreadsheetCell.hpp	/^class SpreadsheetCell$/;"	c
+SpreadsheetCell	sources/SpreadsheetCell.cpp	/^SpreadsheetCell::SpreadsheetCell():mValue(0.0) $/;"	f	class:SpreadsheetCell
+SpreadsheetCell	sources/SpreadsheetCell.cpp	/^SpreadsheetCell::SpreadsheetCell(double inValue):mValue(inValue)$/;"	f	class:SpreadsheetCell
+SpreadsheetCell	sources/SpreadsheetCell.cpp	/^SpreadsheetCell::SpreadsheetCell(std::string_view inString):mValue(stringToDouble(inString))$/;"	f	class:SpreadsheetCell
+TOG_BIT	include/BIT_MATH.hpp	/^#define  TOG_BIT(/;"	d
+TOG_BYTE	include/BIT_MATH.hpp	/^#define  TOG_BYTE(/;"	d
+TRUE	include/STD_TYPES.hpp	/^    TRUE$/;"	e	enum:__anon23cff3cd0103
+_SPREADSHEETCELL_H	include/SpreadsheetCell.hpp	/^#define _SPREADSHEETCELL_H$/;"	d
+_SPREADSHEET_H	include/Spreadsheet.hpp	/^#define _SPREADSHEET_H$/;"	d
+__anon23cff3cd0103	include/STD_TYPES.hpp	/^{$/;"	g
+boolean	include/STD_TYPES.hpp	/^} boolean;$/;"	t	typeref:enum:__anon23cff3cd0103
+build	Makefile	/^build:$/;"	t
+clean	Makefile	/^clean:$/;"	t
+cleanup	sources/Spreadsheet.cpp	/^void Spreadsheet::cleanup() noexcept$/;"	f	class:Spreadsheet	typeref:typename:void
+doubleToString	sources/SpreadsheetCell.cpp	/^std::string SpreadsheetCell::doubleToString(double inValue) const$/;"	f	class:SpreadsheetCell	typeref:typename:std::string
+dump	Makefile	/^dump :$/;"	t
+dump-all	Makefile	/^dump-all :$/;"	t
+f32	include/STD_TYPES.hpp	/^typedef float     f32;$/;"	t	typeref:typename:float
+f64	include/STD_TYPES.hpp	/^typedef double    f64;$/;"	t	typeref:typename:double
+getCellAt	sources/Spreadsheet.cpp	/^SpreadsheetCell & Spreadsheet::getCellAt(size_t x, size_t y)$/;"	f	class:Spreadsheet	typeref:typename:SpreadsheetCell &
+getString	sources/SpreadsheetCell.cpp	/^std::string SpreadsheetCell::getString() const$/;"	f	class:SpreadsheetCell	typeref:typename:std::string
+getValue	sources/SpreadsheetCell.cpp	/^double SpreadsheetCell::getValue() const$/;"	f	class:SpreadsheetCell	typeref:typename:double
+mCells	include/Spreadsheet.hpp	/^	SpreadsheetCell** mCells = nullptr;$/;"	m	class:Spreadsheet	typeref:typename:SpreadsheetCell **
+mHeight	include/Spreadsheet.hpp	/^	size_t mHeight = 0;$/;"	m	class:Spreadsheet	typeref:typename:size_t
+mValue	include/SpreadsheetCell.hpp	/^	double mValue;$/;"	m	class:SpreadsheetCell	typeref:typename:double
+mWidth	include/Spreadsheet.hpp	/^	size_t mWidth = 0;$/;"	m	class:Spreadsheet	typeref:typename:size_t
+main	sources/main.cpp	/^int main()$/;"	f	typeref:typename:int
+moveFrom	sources/Spreadsheet.cpp	/^void Spreadsheet::moveFrom(Spreadsheet& src) noexcept$/;"	f	class:Spreadsheet	typeref:typename:void
+operator =	sources/Spreadsheet.cpp	/^Spreadsheet& Spreadsheet::operator=(Spreadsheet &&rhs) noexcept$/;"	f	class:Spreadsheet	typeref:typename:Spreadsheet &
+operator =	sources/Spreadsheet.cpp	/^Spreadsheet& Spreadsheet::operator=(const Spreadsheet& rhs)$/;"	f	class:Spreadsheet	typeref:typename:Spreadsheet &
+s16	include/STD_TYPES.hpp	/^typedef signed short int s16;$/;"	t	typeref:typename:signed short int
+s32	include/STD_TYPES.hpp	/^typedef signed int       s32;$/;"	t	typeref:typename:signed int
+s64	include/STD_TYPES.hpp	/^typedef signed long long s64;$/;"	t	typeref:typename:signed long long
+s8	include/STD_TYPES.hpp	/^typedef signed char      s8;$/;"	t	typeref:typename:signed char
+setCellAt	sources/Spreadsheet.cpp	/^void Spreadsheet::setCellAt(size_t x, size_t y, const SpreadsheetCell& cell)$/;"	f	class:Spreadsheet	typeref:typename:void
+setString	sources/SpreadsheetCell.cpp	/^void SpreadsheetCell::setString(std::string_view inString)$/;"	f	class:SpreadsheetCell	typeref:typename:void
+setValue	sources/SpreadsheetCell.cpp	/^void SpreadsheetCell::setValue(double inValue)$/;"	f	class:SpreadsheetCell	typeref:typename:void
+size	Makefile	/^size :$/;"	t
+stringToDouble	sources/SpreadsheetCell.cpp	/^double SpreadsheetCell::stringToDouble(std::string_view inString) const$/;"	f	class:SpreadsheetCell	typeref:typename:double
+swap	sources/Spreadsheet.cpp	/^void swap(Spreadsheet& first, Spreadsheet& second) noexcept$/;"	f	typeref:typename:void
+u16	include/STD_TYPES.hpp	/^typedef unsigned short int  u16;$/;"	t	typeref:typename:unsigned short int
+u32	include/STD_TYPES.hpp	/^typedef unsigned int        u32;$/;"	t	typeref:typename:unsigned int
+u64	include/STD_TYPES.hpp	/^typedef unsigned long long  u64;$/;"	t	typeref:typename:unsigned long long
+u8	include/STD_TYPES.hpp	/^typedef unsigned char       u8;$/;"	t	typeref:typename:unsigned char
+verifyCoordinate	sources/Spreadsheet.cpp	/^void Spreadsheet::verifyCoordinate(size_t x, size_t y) const$/;"	f	class:Spreadsheet	typeref:typename:void
+~Spreadsheet	sources/Spreadsheet.cpp	/^Spreadsheet::~Spreadsheet()$/;"	f	class:Spreadsheet
+~SpreadsheetCell	sources/SpreadsheetCell.cpp	/^SpreadsheetCell::~SpreadsheetCell()$/;"	f	class:SpreadsheetCell
